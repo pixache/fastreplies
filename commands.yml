@@ -1,0 +1,13 @@
+example:
+    enabled: # True veya false olarak değişir, komutun aktiflik durumu.
+    - false
+    permission: #  Yetki. 'none' olarak değiştirilebilir.
+    - fastreplies.use.example
+    reply: # Oyuncuya gönderilen mesaj.
+    - '&6&m-------------------------------------&9'
+    - '&8[&9FastReplies&8] &eKomut düzenleyicisi!'
+    - '&8[&9FastReplies&8] &eÖzel komutlarınızı ekleyin,'
+    - '&8[&9FastReplies&8] &eİstediğiniz kadar ekleyebilirsiniz!'
+    - '&8[&9FastReplies&8] &eÇoklu satırları destekler!'
+    - '&8[&9FastReplies&8] &eMC-TR: Shura'
+    - '&6&m-------------------------------------&9'

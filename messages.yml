@@ -1,0 +1,38 @@
+command-list: '&8[&9FastReplies&8] &eList of added commands: {commands}'
+
+disabled: '&8[&9FastReplies&8] &eThis command is disabled.'
+
+doesnt-exist: '&8[&9FastReplies&8] &eThis command doesn''t exist, add it first.'
+
+error: '&8[&9FastReplies&8] &eThere is an error with this command, contact to admins.'
+
+exists: '&8[&9FastReplies&8] &eThis command exists in the list.'
+
+help:
+- '&6&m-----------------------------&b'
+- '&8[&9FastReplies&8] &e/fr add [cmd] [reply] &7: Add a command.'
+- '&8[&9FastReplies&8] &e/fr remove [cmd] &7: Remove a command.'
+- '&8[&9FastReplies&8] &e/fr commands &7: See the commands you added.'
+- '&8[&9FastReplies&8] &e/fr set [cmd] [true/false] &7: Toggle a commands status.'
+- '&8[&9FastReplies&8] &e/fr (add|remove)line [cmd] [line] &7: Add or remove a line.'
+- '&8[&9FastReplies&8] &e/fr reload [yaml] &7: Reload the skript or the YAML files.'
+- '&6&m-----------------------------&b'
+
+line-removed:
+- '&8[&9FastReplies&8] &eCommand: {command}'
+- '&8[&9FastReplies&8] &eRemoved line: {line}'
+
+new-line-added:
+- '&8[&9FastReplies&8] &eCommand: {command}'
+- '&8[&9FastReplies&8] &eAdded line: {line}'
+
+no-perm: '&8[&9FastReplies&8] &eYou don''t have the permission to use this command.'
+
+only-true-or-false: '&8[&9FastReplies&8] &eYou may only set the status to true or
+    false.'
+
+removed-cmd: '&8[&9FastReplies&8] &eRemoved command: {command}'
+
+status-changed:
+- '&8[&9FastReplies&8] &eCommand: {command}'
+- '&8[&9FastReplies&8] &eNew Status: {status}'
